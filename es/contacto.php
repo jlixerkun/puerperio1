@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
     <title>Puerperio :: Exposición Virtual :: Contacto</title>
-
-
     <?php include '../scripts.php' ?>    
 </head>
-
 <body>
-   
     <?php include 'cabeza.php' ?>
-
-
-
     <div class="accordion accordion-flush" role="tablist" id="seccs" style="padding-top: 200px;">
         <!-- Start: contacto -->
         <div class="accordion-item cremita noMargin">
@@ -71,5 +63,4 @@
     </div>
     <?php include 'pie.php' ?>
 </body>
-
 </html>

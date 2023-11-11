@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
-    <title>Puerperio :: Exposición Virtual :: Catalina Mosquera</title>
-
+    <title>Puerperio :: Exposición Virtual :: Carelyn Mejías</title>
     <?php include '../scripts.php' ?>
-
 </head>
-
 <body>
-    
     <?php include 'cabeza.php' ?>
-
-
-
-
     <!-- Start: obra -->
     <section class="d-flex justify-content-center align-items-center obra">
         <div class="carousel slide carousel-dark text-center d-flex justify-content-center" data-bs-ride="carousel" data-bs-interval="7000" id="obra">
@@ -96,9 +87,6 @@
             </div>
         </div><!-- End: ENTREVISTA -->
     </div>
-
-    
     <?php include 'pie.php' ?>
 </body>
-
 </html>

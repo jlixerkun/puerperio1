@@ -34,9 +34,8 @@
 
 
     <div class="modal-idioma">
-        <h3>idioma</h3>
         <div class="selector es" data-lang="es">Esp</div>
-        <div class="selector pt" data-lang="pt">Por</div>
+        <div class=" pt" data-lang="pt" title="Disponível em breve" >Por</div>
     </div>
     
 

@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
-    <title>Puerperio :: Exposición Virtual :: Catalina Mosquera</title>
-
-
+    <title>Puerperio :: Exposición Virtual :: Marcela Tiboni</title>
     <?php include '../scripts.php' ?>    
 </head>
-
 <body>
     <?php include 'cabeza.php' ?>
     <!-- Start: obra -->
@@ -66,5 +62,4 @@
     </div>
     <?php include 'pie.php' ?>
 </body>
-
 </html>

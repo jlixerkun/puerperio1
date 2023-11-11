@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
     <title>Puerperio :: Exposición Virtual :: Galería</title>
-
     <?php include '../scripts.php' ?>
-
 </head>
 <body>
-    
 <?php include 'cabeza.php' ?>
-
-
     <section id="gal" style="padding-top: 80px;"></section>
     <div class="container py-4 py-xl-5">
         <div class="row g-0">
@@ -96,5 +90,4 @@
     </div>
     <?php include 'pie.php' ?>
 </body>
-
 </html>
