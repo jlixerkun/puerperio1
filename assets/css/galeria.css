@@ -1,0 +1,24 @@
+#gal {
+  display: grid;
+  max-width: 1240px;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: masonry;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 0 0 6rem;
+}
+#gal .item-galeria {
+  display: inline-block;
+}
+#gal .item-galeria.ancho {
+  grid-column: span 2;
+}
+#gal .item-galeria.alto {
+  grid-row: span 2;
+}
+#gal .item-galeria.grande {
+  grid-column: span 2;
+  grid-row: span 2;
+}/*# sourceMappingURL=galeria.css.map */
