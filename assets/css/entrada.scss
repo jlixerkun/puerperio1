@@ -1,0 +1,27 @@
+:root {
+    --modal-w : 20rem;
+    --modal-h : calc((var(--modal-w)/2))
+}
+
+.modal-idioma {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: var(--modal-h);
+    justify-content: center;
+    padding: 1rem;
+    position: absolute;
+    width: var(--modal-w);
+    transform:  translateX(calc(50vw - (var(--modal-w) / 2)))
+                translateY(calc(50vh - (var(--modal-h) / 2)));
+    z-index: 100;
+    .selector {
+        cursor: pointer;
+        display: inline-block;
+    }
+    &.oculto {
+        display: none;
+    }
+}

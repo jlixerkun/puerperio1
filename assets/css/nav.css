@@ -1,0 +1,79 @@
+.menubg {
+  padding: 30px;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 100;
+}
+
+.menubg #thettas.active {
+  animation: crecerlas 800ms ease forwards;
+}
+
+.menubg #thettas.active #inner {
+  fill: #ffddae;
+}
+
+.menubg #thettas.inactive {
+  animation: decrecerlas 800ms ease forwards;
+}
+
+.menubg .menu-list {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.menubg .menu-list.active {
+  display: inline-block;
+  transform: translateX(-2rem) translateY(1.2rem);
+  animation: aparecer 300ms ease 700ms forwards;
+}
+
+.menubg .menu-list .menu-item {
+  line-height: 1.2rem;
+}
+
+.menubg .menu-list .menu-item a {
+  font-size: 17.6px;
+  line-height: 1;
+  color: var(--bs-danger-text-emphasis, blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menubg .menu-list .menu-item a:hover, .menubg .menu-list .menu-item a:active {
+  color: var(--bs-danger, red);
+}
+
+@keyframes crecerlas {
+  0% {
+    transform: scale(1) translateX(0) translateY(0);
+  }
+  100% {
+    transform: scale(4) translateX(1rem) translateY(1rem);
+  }
+}
+
+@keyframes decrecerlas {
+  0% {
+    transform: scale(4) translateX(1rem) translateY(1rem);
+  }
+  100% {
+    transform: scale(1) translateX(0) translateY(0);
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    font-size: 0.75rem;
+  }
+  100% {
+    font-size: 1.3rem;
+    opacity: 1;
+  }
+}
+
