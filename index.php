@@ -34,7 +34,7 @@
 
 
     <div class="modal-idioma">
-        <h3>Seleccionar idioma</h3>
+        <h3>idioma</h3>
         <div class="selector es" data-lang="es">Esp</div>
         <div class="selector pt" data-lang="pt">Por</div>
     </div>
