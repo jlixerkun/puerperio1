@@ -24,4 +24,16 @@
     &.oculto {
         display: none;
     }
+    // &:after {
+    //     content: "";
+    // }
+}
+.backdrop {
+        position: fixed;
+        z-index: 90;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.3);
+        backdrop-filter: blur(3px);
+    
 }

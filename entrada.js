@@ -2,6 +2,10 @@ console.log('este es entrada.js');
 const selectores = [...document.querySelectorAll('.selector')];
 const links = [...document.querySelectorAll('.link-main a')];
 let modal = document.querySelector( '.modal-idioma');
+let tempDiv = document.createElement('div');
+tempDiv.classList.add('backdrop');
+
+modal.insertAdjacentElement('afterend',tempDiv);
 
 selectores.forEach( (item)=> {
     item.addEventListener('click', (e)=> {
@@ -11,6 +15,7 @@ selectores.forEach( (item)=> {
             let newPath =  lang + '/'+ path;
             item.setAttribute('href', newPath );
         });
-        modal.classList.add('oculto');
+        modal.remove();
+        tempDiv.remove();        
     })
 })

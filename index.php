@@ -38,6 +38,7 @@
         <div class="selector es" data-lang="es">Esp</div>
         <div class="selector pt" data-lang="pt">Por</div>
     </div>
+    
 
     <section id="slide" style="overflow: hidden;">
         <h1 class="display-1 titleHome logopuerperioslide">Puerperio</h1>
