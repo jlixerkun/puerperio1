@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
     <title>Puerperio :: Exposición Virtual :: Artistas</title>
-    
-
     <?php include '../scripts.php' ?>
 </head>
-
-
 <?php include 'cabeza.php' ?>
-
     <section class="obra">
         <!-- Start: grid-artistas -->
         <div class="grid-artistas">
@@ -84,5 +78,4 @@
     </section>
     <?php include 'pie.php' ?>
 </body>
-
 </html>

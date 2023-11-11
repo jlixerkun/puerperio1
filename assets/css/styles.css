@@ -313,138 +313,47 @@ p {
   z-index: 3;
 }
 
-.titleFoot {
-  font-family: 'League Spartan', sans-serif;
-}
+.nav1{position:absolute;z-index:28;top:10vh;left:38vw;animation:tembladera1 8s infinite}
+.nav2{position:absolute;z-index:28;top:30vh;left:77vw;animation:tembladera2 10s infinite}
+.nav3{position:absolute;z-index:28;top:46vh;left:22vw;animation:tembladera3 9s infinite}
+.nav4{position:absolute;z-index:28;top:60vh;left:60vw;animation:tembladera4 7s infinite}
+.nav5{position:absolute;z-index:28;top:70vh;left:26vw;animation:tembladera5 9s infinite}
 
-.nav1 {
-  position: absolute;
-  z-index: 28;
-  top: 10vh;
-  left: 38vw;
-  animation: tembladera1 8s infinite;
+@keyframes tembladera1{
+0%,100%{transform:rotate(0) translateY(0) translateX(0)}
+25%{transform:rotate(5deg) translateY(20px) translateX(20px)}
+60%{transform:rotate(0) translateY(-20px) translateX(-20px)}
+72%{transform:rotate(-5deg) translateY(20px) translateX(20px)}
 }
-
-.nav2 {
-  position: absolute;
-  z-index: 28;
-  top: 30vh;
-  left: 77vw;
-  animation: tembladera2 10s infinite;
+@keyframes tembladera2{
+0%,100%{transform:rotate(0) translateY(5px) translateX(3px)}
+17%{transform:rotate(25deg) translateY(-5px) translateX(-8px)}
+63%{transform:rotate(0) translateY(4px) translateX(9px)}
+75%{transform:rotate(-35deg) translateY(-8px) translateX(-3px)}
 }
-
-.nav3 {
-  position: absolute;
-  z-index: 28;
-  top: 46vh;
-  left: 22vw;
-  animation: tembladera3 9s infinite;
+@keyframes tembladera3{
+0%,100%{transform:rotate(0) translateY(25px) translateX(0)}
+10%{transform:rotate(-18deg) translateY(10px) translateX(34px)}
+45%{transform:rotate(0) translateY(-4px) translateX(-10px)}
+75%{transform:rotate(12deg) translateY(-6px) translateX(11px)}
 }
-
-.nav4 {
-  position: absolute;
-  z-index: 28;
-  top: 60vh;
-  left: 60vw;
-  animation: tembladera4 7s infinite;
+@keyframes tembladera4{
+0%,100%{transform:rotate(0) translateY(0) translateX(0)}
+52%{transform:rotate(20deg) translateY(5px) translateX(-10px)}
+57%{transform:rotate(7deg) translateY(-25px) translateX(19px)}
+68%{transform:rotate(-20deg) translateY(14px) translateX(-5px)}
 }
-
-.nav5 {
-  position: absolute;
-  z-index: 28;
-  top: 70vh;
-  left: 26vw;
-  animation: tembladera5 9s infinite;
+@keyframes tembladera5{
+0%,100%{transform:rotate(0) translateY(0) translateX(0)}
+8%{transform:rotate(12deg) translateY(6px) translateX(21px)}
+75%{transform:rotate(0) translateY(-20px) translateX(-20px)}
+95%{transform:rotate(-12deg) translateY(16px) translateX(14px)}
 }
-
-@keyframes tembladera1 {
-  0%, 100% {
-    transform: rotate(0deg) translateY(0px) translateX(0px);
-  }
-  25% {
-    transform: rotate(5deg) translateY(20px) translateX(20px);
-  }
-  60% {
-    transform: rotate(0deg) translateY(-20px) translateX(-20px);
-  }
-  72% {
-    transform: rotate(-5deg) translateY(20px) translateX(20px);
-  }
-}
-
-@keyframes tembladera2 {
-  0%, 100% {
-    transform: rotate(0deg) translateY(5px) translateX(3px);
-  }
-  17% {
-    transform: rotate(25deg) translateY(-5px) translateX(-8px);
-  }
-  63% {
-    transform: rotate(0deg) translateY(4px) translateX(9px);
-  }
-  75% {
-    transform: rotate(-35deg) translateY(-8px) translateX(-3px);
-  }
-}
-
-@keyframes tembladera3 {
-  0%, 100% {
-    transform: rotate(0deg) translateY(25px) translateX(0px);
-  }
-  10% {
-    transform: rotate(-18deg) translateY(10px) translateX(34px);
-  }
-  45% {
-    transform: rotate(0deg) translateY(-4px) translateX(-10px);
-  }
-  75% {
-    transform: rotate(12deg) translateY(-6px) translateX(11px);
-  }
-}
-
-@keyframes tembladera4 {
-  0%, 100% {
-    transform: rotate(0deg) translateY(0px) translateX(0px);
-  }
-  52% {
-    transform: rotate(20deg) translateY(5px) translateX(-10px);
-  }
-  57% {
-    transform: rotate(7deg) translateY(-25px) translateX(19px);
-  }
-  68% {
-    transform: rotate(-20deg) translateY(14px) translateX(-5px);
-  }
-}
-
-@keyframes tembladera5 {
-  0%, 100% {
-    transform: rotate(0deg) translateY(0px) translateX(0px);
-  }
-  8% {
-    transform: rotate(12deg) translateY(6px) translateX(21px);
-  }
-  75% {
-    transform: rotate(0deg) translateY(-20px) translateX(-20px);
-  }
-  95% {
-    transform: rotate(-12deg) translateY(16px) translateX(14px);
-  }
-}
-
-@keyframes tembladeraLogo {
-  0%, 100% {
-    transform: translateY(0px) translateX(0px);
-  }
-  8% {
-    transform: translateY(3px) translateX(2px);
-  }
-  75% {
-    transform: translateY(-8px) translateX(-7px);
-  }
-  95% {
-    transform: translateY(1px) translateX(2px);
-  }
+@keyframes tembladeraLogo{
+0%,100%{transform:translateY(0) translateX(0)}
+8%{transform:translateY(3px) translateX(2px)}
+75%{transform:translateY(-8px) translateX(-7px)}
+95%{transform:translateY(1px) translateX(2px)}
 }
 
 .destaque {
@@ -470,3 +379,4 @@ figure {
   margin: 10px 30px;
 }
 
+/* .carousel .carousel-item .figure-img {} */

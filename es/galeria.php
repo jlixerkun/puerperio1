@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
     <title>Puerperio :: Exposición Virtual :: Galería</title>
-
     <?php include '../scripts.php' ?>
-
 </head>
 
 <body>
@@ -102,5 +99,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
 
 </body>
-
 </html>

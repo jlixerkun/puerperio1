@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
     <title>Puerperio :: Exposición Virtual :: Contacto</title>
-
     <?php include '../scripts.php' ?>
 </head>
-
 <body>
-
-
     <?php include 'cabeza.php' ?>
     <div class="accordion accordion-flush" role="tablist" id="seccs">
         <!-- Start: Texto Curatorial -->
@@ -49,5 +44,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="../assets/js/scripts.js"></script>
 </body>
-
 </html>

@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
-
 <head>
-    <title>Puerperio :: Exposición Virtual :: Catalina Mosquera</title>
-
-
+    <title>Puerperio :: Exposición Virtual :: Mónica Ventura</title>
     <?php include '../scripts.php' ?>
 </head>
-
 <body>
-
     <?php include 'cabeza.php' ?>
     <!-- Start: obra -->
     <section class="d-flex justify-content-center align-items-center obra">
@@ -101,5 +96,4 @@
     </div>
     <?php include 'pie.php' ?>
 </body>
-
 </html>
