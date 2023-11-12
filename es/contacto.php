@@ -29,6 +29,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+<?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $nombre = $_POST["nombre"];
+        $correo = $_POST["correo"];
+        $mensaje = $_POST["mensaje"];
+        $enviadoPor = "proyectococuyo@gmail.com";
+
+        $to = "afpera@gmail.com";
+        $subject = "Entrada de Formulario en puerperio.org";
+
+        $message = "Nombre: $nombre\n..";
+        $message .= "Correo: $correo\n..";
+        $message .= "Mensaje:\n..$mensaje";
+
+        $headers = "From: $enviadoPor\r\n..";
+        $headers .= "Reply-To: $enviadoPor\r\n..";
+
+        if (mail($to, $subject, $message, $headers)) {
+            $response = "¡Hemos recibido tu mensaje. Pronto podrás verlo publicado!";
+        } else {
+            $response = "Ha habido un error al enviar tu mensaje. Por favor intenta de nuevo o escribe directamente al correo proyectococuyo@gmail.com";
+        }
+    }
+    ?>
+
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
 
@@ -40,18 +65,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <?php include 'cabeza.php' ?>
 
-    <div class="accordion accordion-flush" role="tablist" id="seccs" style="padding-top: 200px;">
-        <!-- Start: contacto -->
-        <div class="accordion-item cremita noMargin">
-            <h2 class="accordion-header" role="tab"><button class="accordion-button butCremita SECCS" type="button" data-bs-toggle="collapse" data-bs-target="#seccs .seccs-1" aria-expanded="true" aria-controls="seccs .seccs-1">Contacto</button></h2>
-            <div class="accordion-collapse collapse show seccs-1" role="tabpanel">
-                <div class="accordion-body">
-                    <div class="row">
-                        <!-- Start: artBio_text -->
-                        <div class="col-md-5 col-lg-6 offset-md-1 offset-xxl-2 desap">
-                            <p>aquí va la info y formulario de contacto</p>
-                        </div><!-- End: artBio_text -->
-                    </div>
+    
+    <section id="contacto" class="nara">
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 style="color: var(--bs-secondary)">Contacto</h2>
                 </div>
             </div>
         </div><!-- End: contacto -->
@@ -103,9 +122,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </div>
                     </div>
                 </div>
+
+                <div class="col msgbox col-md-6">
+                    <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
+            
+                    <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
+                        <input type="text" class="formInput" placeholder="Nombre" name="nombre">
+                        <input type="email" class="formInput" placeholder="correo" name="correo">
+                        <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Comentario</label></div>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Correo</label></div>
+                        <input class="btn btn-primary" type="submit">
+                    </form>
+            
+                    <section class="main row">
+                        <h2>
+                            <?php
+                            if ($response) {
+                                echo $response;
+                            }
+                            ?>
+                        </h2>
+                    </section>
+
+                </div>
             </div>
-        </div><!-- End: chat -->
-    </div>
+        </div>
+    </section>
+
+    
     <?php include 'pie.php' ?>
 
     <script src="../msj.js"></script>

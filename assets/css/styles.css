@@ -69,6 +69,7 @@ footer {
 
 .avatar {
   border-radius: 50%;
+  background-color: var(--bs-danger);
 }
 
 .comAut {
@@ -108,6 +109,10 @@ footer {
   font-style: italic;
 }
 
+label {
+  color: var(--bs-secondary);
+}
+
 input[type=submit] {
   color: var(--bs-success);
   padding: 6px 15px;
@@ -141,6 +146,7 @@ input[type=submit] {
 
 .obra {
   min-height: 100vh;
+  padding: 120px 20px 0px;
 }
 
 @media (min-width: 576px) {
