@@ -23,6 +23,7 @@
     <title>Puerperio :: Exposición Virtual :: Inicio</title>
 </head>
 
+
 <body>
     <div>
         <div class="nav1 link-main"><a href="galeria.php"><img class="draggable-svg" src="assets/img/ui/tetha01.svg"></a></div>
