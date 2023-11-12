@@ -66,11 +66,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="comentario" name="comentario" checked>
-                            <label class="form-check-label" for="formCheck-1">Comentario</label>
+                            <label class="form-check-label" for="comentario">Comentario</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="comentario" name="correo" checked>
-                            <label class="form-check-label" for="formCheck-2">Correo</label>
+                            <input class="form-check-input" type="checkbox" id="correo" name="correo" checked>
+                            <label class="form-check-label" for="correo">Correo</label>
                         </div>
                         <input class="btn btn-primary" type="submit" value="Enviar">
 
