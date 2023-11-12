@@ -381,8 +381,19 @@ figure {
 }
 
 .destaqueCura {
-  font-size: 2rem;
+  font-size: 1.62rem;
   margin: 10px 30px;
 }
 
-/* .carousel .carousel-item .figure-img {} */
+label {
+  color: var(--bs-secondary);
+}
+
+.cont_noacc {
+  padding-top: 120px;
+}
+
+.tit_noacc {
+  font-family: 'League Spartan', sans-serif;
+  color: var(--bs-link-color);
+}

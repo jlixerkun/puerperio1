@@ -12,14 +12,14 @@
             </defs>
         </svg>
         <ul id="menu" class="menu-list">
-            <li class="menu-item"><a href="../index.php">Inicio</a></li>
-            <li class="menu-item"><a href="galeria.php">galería</a></li>
-            <li class="menu-item"><a href="puerperio.php">texto curatorial</a></li>
-            <li class="menu-item"><a href="artistas.php">artistas</a></li>
-            <li class="menu-item"><a href="encuentro.php">encuentro</a></li>
-            <li class="menu-item"><a href="proyectos.php">otros proyectos</a></li>            
-            <li class="menu-item"><a href="contacto.php">contacto</a></li>
+            <li class="menu-item"><a href="../index.php">inicio</a></li>
+            <li class="menu-item"><a href="galeria.php">Galería</a></li>
+            <li class="menu-item"><a href="artistas.php">Artistas</a></li>
+            <li class="menu-item"><a href="puerperio.php">Texto Curatorial</a></li>
+            <li class="menu-item"><a href="encuentro.php">Encuentro</a></li>
+            <li class="menu-item"><a href="proyectos.php">Otros Proyectos</a></li>            
+            <li class="menu-item"><a href="contacto.php">Contacto</a></li>
         </ul>
     </div>
 </nav>
-<div class="text-end"><img class="titleInt" src="../assets/img/logos/P.svg"></div>
+<div class="text-end"><img class="titleInt" src="../assets/img/logos/Pp.svg"></div>
