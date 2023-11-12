@@ -7,7 +7,7 @@
 <body>
     <?php include 'cabeza.php' ?>
 
-    <section id="gal" style="padding-top: 80px;">
+    <section id="gal">
         <div class="item-galeria grande"><a class="galink" href="../assets/img/art_gal/art_gal_MonVen_04a.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_MonVen_04a.jpg"><!-- Start: Pie de Obra -->
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_MonVen.html"><span class="obraTitAut">Mónica Ventura</span></a><br><span class="obraTitGal">Bizcochos</span><br>Acrílico sobre cerámica<br>2022</p><!-- End: Pie de Obra -->

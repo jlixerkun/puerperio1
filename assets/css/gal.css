@@ -8,10 +8,14 @@
   width: 90%;
   margin: auto;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-rows: masonry;
   gap: 1rem;
   grid-auto-flow: dense;
-  padding: 0 0 6rem;
+  padding: 8rem 0 6rem;
+}
+@media (max-width: 720px) {
+  #gal {  
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
 }
 
 #gal .item-galeria {
