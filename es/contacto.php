@@ -1,11 +1,45 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST["nombre"];
+    $correo = $_POST["correo"];
+    $mensaje = $_POST["mensaje"];
+    $comentario = $_POST["comentario"];
+    $correo = $_POST["correo"];
+
+    $enviadoPor = "proyectococuyo@gmail.com";
+
+    // Replace with your email address
+    $to = "afpera@gmail.com";
+    $subject = "Nuevo comentario o contacto desde puerperio";
+
+    $message = "Nombre: $nombre\n..";
+    $message .= "Correo: $correo\n..";
+    $message .= "Mensaje:\n..$mensaje";
+    $message .= "Comentario:\n..$comentario";
+    $message .= "Correo:\n..$correo";
+
+
+    $headers = "From: $enviadoPor\r\n..";
+    $headers .= "Reply-To: $enviadoPor\r\n..";
+
+    if (mail($to, $subject, $message, $headers)) {
+        $response = "¡Hemos recibido tu mensaje. Pronto podrás verlo publicado!";
+    } else {
+        $response = "Ha habido un error al enviar tu mensaje. Por favor intenta de nuevo.";
+    }
+}
+?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
+
 <head>
     <title>Puerperio :: Exposición Virtual :: Contacto</title>
-    <?php include '../scripts.php' ?>    
+    <?php include '../scripts.php' ?>
 </head>
+
 <body>
     <?php include 'cabeza.php' ?>
+
     <div class="accordion accordion-flush" role="tablist" id="seccs" style="padding-top: 200px;">
         <!-- Start: contacto -->
         <div class="accordion-item cremita noMargin">
@@ -28,33 +62,44 @@
                 <div class="accordion-body">
                     <div class="container-lg">
                         <div class="row" style="padding-bottom: 20px;padding-top: 20px;">
+
+
                             <!-- Start: comentarios -->
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <!-- Start: com_Ava -->
-                                    <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="art_ret/art_ret_CatMos_02.jpg"></div><!-- End: com_Ava -->
-                                    <div class="col-9">
-                                        <!-- Start: comAut -->
-                                        <h5 class="text-start comAut">Catalina Mosquera</h5><!-- End: comAut -->
-                                        <!-- Start: comBox -->
-                                        <p class="fst-italic comBox">Este es un mensaje que haya dejado alguien escrito con el formulario adjunto, el cual llega al correo de puerperio.</p><!-- End: comBox -->
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <!-- Start: com_Ava -->
-                                    <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="art_ret/art_ret_ClaNun_01.jpg"></div><!-- End: com_Ava -->
-                                    <div class="col-9">
-                                        <!-- Start: comAut -->
-                                        <h5 class="text-start comAut">Claudia Núñez</h5><!-- End: comAut -->
-                                        <!-- Start: comBox -->
-                                        <p class="fst-italic comBox">Aquí van quedando listados los mensajes que uds hayan recibido en el correo y seleccionen para subir manualmente a la página.</p><!-- End: comBox -->
-                                    </div>
-                                </div>
+                            <div class="col-md-6" id="comentarios">
+                                
                             </div><!-- End: comentarios -->
-                            <!-- Start: formulario -->
+
+
+
                             <div class="col-md-6" style="padding: 20px;padding-bottom: 80px;">
-                                <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5><input type="text" class="formInput" placeholder="Nombre"><input type="email" class="formInput" placeholder="correo"><textarea class="formInput" placeholder="mensaje" rows="3"></textarea><input class="btn btn-primary" type="submit">
-                            </div><!-- End: formulario -->
+                                <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
+                                <!-- Start: formulario -->
+                                <section class="response-msg">
+                                    <h3>
+                                        <?php
+                                        if ($response) {
+                                            echo $response;
+                                        }
+                                        ?>
+                                    </h3>
+                                </section>
+                                <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
+                                    <input type="text" class="formInput" placeholder="Nombre" name="nombre">
+                                    <input type="email" class="formInput" placeholder="correo" name="correo">
+                                    <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="comentario" name="comentario" checked>
+                                        <label class="form-check-label" for="formCheck-1" >Comentario</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="comentario" name="correo" checked>
+                                        <label class="form-check-label" for="formCheck-2">Correo</label>
+                                    </div>
+                                    <input class="btn btn-primary" type="submit">
+
+                                </form>
+                                <!-- End: formulario -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,5 +107,8 @@
         </div><!-- End: chat -->
     </div>
     <?php include 'pie.php' ?>
+
+    <script src="../msj.js"></script>
 </body>
+
 </html>

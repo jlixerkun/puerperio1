@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Laura Jiménez",
+        "mensaje": "Me ha gustado la diversidad de encuentros entre arte y maternidad recogidas en esta exposición. Cada artista trae un mundo de sentido y aporta a la urgente reflexión sobre estos temas.",
+        "email": "ljimenezp@unal.edu.co",
+        "comentario": 1,
+        "correo": 0
+    },
+    {
+        "nombre": "Sofía Fiorito",
+        "mensaje": "Genial, me gustaría saber si pueden participar más artistas en esta exposición.",
+        "email": "marge@simpson.com",
+        "comentario": 0,
+        "correo": 1
+    },
+    {
+        "nombre": "Maria Claudia Villate",
+        "mensaje": "Inspirador conocer a las artistas desde sus obras y entrevistas!",
+        "email": "bart@simpson.com",
+        "comentario": 1,
+        "correo": 1
+    }
+]
