@@ -1,5 +1,4 @@
 console.log("read messages");
-
 fetch("../msg.json")
   .then((response) => response.json())
   .then((data) => {
