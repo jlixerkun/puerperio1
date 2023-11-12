@@ -41,68 +41,74 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <?php include 'cabeza.php' ?>
 
-    
-    <section id="contacto" class="nara">
-        <div class="container py-4 py-xl-5">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 style="color: var(--bs-secondary)">Contacto</h2>
-                </div>
-            </div>
-        </div><!-- End: contacto -->
-        <!-- Start: chat -->
-        <div class="accordion-item nara noMargin">
-            <h2 class="accordion-header" role="tab"><button class="accordion-button butNara SECCS" type="button" data-bs-toggle="collapse" data-bs-target="#seccs .seccs-2" aria-expanded="true" aria-controls="seccs .seccs-2">Chat</button></h2>
-            <div class="accordion-collapse collapse show seccs-2" role="tabpanel">
-                <div class="accordion-body">
-                    <div class="container-lg">
-                        <div class="row" style="padding-bottom: 20px;padding-top: 20px;">
 
+    <section class="d-flex align-items-center nara" style="min-height: 100vh;">
+        <div class="container-lg">
+            <div class="row" style="padding-bottom: 20px;padding-top: 20px;">
+                <div class="col-md-6" id="comentarios">
 
-                            <!-- Start: comentarios -->
-                            <div class="col-md-6" id="comentarios">
-                                
-                            </div><!-- End: comentarios -->
+<!-- Versión Dinámica no funcionando
 
+                        <section class="response-msg">
+                        <h3>
+                            <?php
+                            if ($response) {
+                                echo $response;
+                            }
+                            ?>
+                        </h3>
+                    </section>
 
+ -->                    
+     <!-- Versión estática  para borrar cuando funcione lo anterior-->
 
-                            <div class="col-md-6" style="padding: 20px;padding-bottom: 80px;">
-                                <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
-                                <!-- Start: formulario -->
-                                <section class="response-msg">
-                                    <h3>
-                                        <?php
-                                        if ($response) {
-                                            echo $response;
-                                        }
-                                        ?>
-                                    </h3>
-                                </section>
-                                <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
-                                    <input type="text" class="formInput" placeholder="Nombre" name="nombre">
-                                    <input type="email" class="formInput" placeholder="correo" name="correo">
-                                    <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="comentario" name="comentario" checked>
-                                        <label class="form-check-label" for="formCheck-1" >Comentario</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="comentario" name="correo" checked>
-                                        <label class="form-check-label" for="formCheck-2">Correo</label>
-                                    </div>
-                                    <input class="btn btn-primary" type="submit" value="Enviar">
-
-                                </form>
-                                <!-- End: formulario -->
-                            </div>
+                    <div class="row">
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_CatMos_01.png"></div>
+                        <div class="col-9">
+                            <h5 class="text-start comAut">Laura Jiménez</h5>
+                            <p class="fst-italic comBox">Me ha gustado la diversidad de encuentros entre arte y maternidad recogidas en esta exposición. Cada artista trae un mundo de sentido y aporta a la urgente reflexión sobre estos temas.</p>
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_ClaNun_02.png"></div>
+                        <div class="col-9">
+                            <h5 class="text-start comAut">Sofía Fiorito</h5>
+                            <p class="fst-italic comBox">Genial, me gustaría saber si pueden participar más artistas en esta exposición.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_ClaNun_02.png"></div>
+                        <div class="col-9">
+                            <h5 class="text-start comAut">Maria Claudia Villate</h5>
+                            <p class="fst-italic comBox">Inspirador conocer a las artistas desde sus obras y entrevistas!</p>
+                        </div>
+                    </div>
 
+     <!-- borrar hasta aquí-->
+
+                </div>
+                <div class="col-md-6 align-self-end" id="form" style="padding: 20px;padding-bottom: 80px;">
+                    <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
+
+                    <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
+                        <input type="text" class="formInput" placeholder="Nombre" name="nombre">
+                        <input type="email" class="formInput" placeholder="correo" name="correo">
+                        <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="comentario" name="comentario" checked>
+                            <label class="form-check-label" for="formCheck-1" >Comentario</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="comentario" name="correo" checked>
+                            <label class="form-check-label" for="formCheck-2">Correo</label>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+
+                   </form>
+                </div>
             </div>
         </div>
     </section>
-
     
     <?php include 'pie.php' ?>
 

@@ -14,7 +14,7 @@
         <ul id="menu" class="menu-list">
             <li class="menu-item"><a href="../index.php">Inicio</a></li>
             <li class="menu-item"><a href="galeria.php">galería</a></li>
-            <li class="menu-item"><a href="puerperio.php">puerperio</a></li>
+            <li class="menu-item"><a href="puerperio.php">texto curatorial</a></li>
             <li class="menu-item"><a href="artistas.php">artistas</a></li>
             <li class="menu-item"><a href="encuentro.php">encuentro</a></li>
             <li class="menu-item"><a href="proyectos.php">otros proyectos</a></li>            
