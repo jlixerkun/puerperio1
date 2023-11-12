@@ -1,11 +1,11 @@
 :root {
   --modal-w: 20rem;
-  --modal-h: calc((var(--modal-w)/2)) ;
+  --modal-h: calc((var(--modal-w)/2));
 }
 
 .modal-idioma {
   align-items: center;
-  background-color: #fff;
+  background-color: rgba(255,221,174,0.25);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -17,10 +17,12 @@
   transform: translateX(calc(50vw - var(--modal-w) / 2)) translateY(calc(50vh - var(--modal-h) / 2));
   z-index: 100;
 }
+
 .modal-idioma .selector {
   cursor: pointer;
   display: inline-block;
 }
+
 .modal-idioma.oculto {
   display: none;
 }
@@ -32,5 +34,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
-}/*# sourceMappingURL=entrada.css.map */
+  backdrop-filter: blur(3px);
+}
+
+/* # sourceMappingURL=entrada.css.map */

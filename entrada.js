@@ -1,4 +1,3 @@
-console.log('este es entrada.js');
 const selectores = [...document.querySelectorAll('.selector')];
 const links = [...document.querySelectorAll('.link-main a')];
 let modal = document.querySelector( '.modal-idioma');
