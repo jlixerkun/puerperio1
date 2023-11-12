@@ -29,30 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-<?php
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $nombre = $_POST["nombre"];
-        $correo = $_POST["correo"];
-        $mensaje = $_POST["mensaje"];
-        $enviadoPor = "proyectococuyo@gmail.com";
-
-        $to = "afpera@gmail.com";
-        $subject = "Entrada de Formulario en puerperio.org";
-
-        $message = "Nombre: $nombre\n..";
-        $message .= "Correo: $correo\n..";
-        $message .= "Mensaje:\n..$mensaje";
-
-        $headers = "From: $enviadoPor\r\n..";
-        $headers .= "Reply-To: $enviadoPor\r\n..";
-
-        if (mail($to, $subject, $message, $headers)) {
-            $response = "¡Hemos recibido tu mensaje. Pronto podrás verlo publicado!";
-        } else {
-            $response = "Ha habido un error al enviar tu mensaje. Por favor intenta de nuevo o escribe directamente al correo proyectococuyo@gmail.com";
-        }
-    }
-    ?>
 
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
@@ -123,29 +99,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                 </div>
 
-                <div class="col msgbox col-md-6">
-                    <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
-            
-                    <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
-                        <input type="text" class="formInput" placeholder="Nombre" name="nombre">
-                        <input type="email" class="formInput" placeholder="correo" name="correo">
-                        <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
-                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Comentario</label></div>
-                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Correo</label></div>
-                        <input class="btn btn-primary" type="submit">
-                    </form>
-            
-                    <section class="main row">
-                        <h2>
-                            <?php
-                            if ($response) {
-                                echo $response;
-                            }
-                            ?>
-                        </h2>
-                    </section>
-
-                </div>
             </div>
         </div>
     </section>
