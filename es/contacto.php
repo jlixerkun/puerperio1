@@ -7,8 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = $_POST["correo"];
 
     $enviadoPor = "proyectococuyo@gmail.com";
-
-    // Replace with your email address
     $to = "afpera@gmail.com";
     $subject = "Nuevo comentario o contacto desde puerperio";
 
@@ -45,13 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section class="d-flex align-items-center nara" style="min-height: 100vh;">
         <div class="container-lg">
             <div class="row" style="padding-bottom: 20px;padding-top: 20px;">
-                <div class="col-md-6" id="comentarios">
+                <div class="col-md-6">
 
 <!-- Versión Dinámica no funcionando
 
                         <section class="response-msg">
                         <h3>
-                            <?php
+                        <?php
                             if ($response) {
                                 echo $response;
                             }
@@ -63,21 +61,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      <!-- Versión estática  para borrar cuando funcione lo anterior-->
 
                     <div class="row">
-                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_CatMos_01.png"></div>
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/noavatar.svg"></div>
                         <div class="col-9">
                             <h5 class="text-start comAut">Laura Jiménez</h5>
                             <p class="fst-italic comBox">Me ha gustado la diversidad de encuentros entre arte y maternidad recogidas en esta exposición. Cada artista trae un mundo de sentido y aporta a la urgente reflexión sobre estos temas.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_ClaNun_02.png"></div>
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/noavatar.svg"></div>
                         <div class="col-9">
                             <h5 class="text-start comAut">Sofía Fiorito</h5>
                             <p class="fst-italic comBox">Genial, me gustaría saber si pueden participar más artistas en esta exposición.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/art_ret_ClaNun_02.png"></div>
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/noavatar.svg"></div>
                         <div class="col-9">
                             <h5 class="text-start comAut">Maria Claudia Villate</h5>
                             <p class="fst-italic comBox">Inspirador conocer a las artistas desde sus obras y entrevistas!</p>
@@ -87,6 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      <!-- borrar hasta aquí-->
 
                 </div>
+
                 <div class="col-md-6 align-self-end" id="form" style="padding: 20px;padding-bottom: 80px;">
                     <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
 
@@ -109,6 +108,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
     
     <?php include 'pie.php' ?>
 
