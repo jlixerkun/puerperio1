@@ -69,6 +69,7 @@ footer {
 
 .avatar {
   border-radius: 50%;
+  background-color: var(--bs-danger);
 }
 
 .comAut {
@@ -106,6 +107,10 @@ footer {
   opacity: 0.75;
   color: var(--bs-secondary);
   font-style: italic;
+}
+
+label {
+  color: var(--bs-secondary);
 }
 
 input[type=submit] {

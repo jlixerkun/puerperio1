@@ -1,3 +1,28 @@
+<?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $nombre = $_POST["nombre"];
+        $correo = $_POST["correo"];
+        $mensaje = $_POST["mensaje"];
+        $enviadoPor = "proyectococuyo@gmail.com";
+
+        $to = "afpera@gmail.com";
+        $subject = "Entrada de Formulario en puerperio.org";
+
+        $message = "Nombre: $nombre\n..";
+        $message .= "Correo: $correo\n..";
+        $message .= "Mensaje:\n..$mensaje";
+
+        $headers = "From: $enviadoPor\r\n..";
+        $headers .= "Reply-To: $enviadoPor\r\n..";
+
+        if (mail($to, $subject, $message, $headers)) {
+            $response = "¡Hemos recibido tu mensaje. Pronto podrás verlo publicado!";
+        } else {
+            $response = "Ha habido un error al enviar tu mensaje. Por favor intenta de nuevo o escribe directamente al correo proyectococuyo@gmail.com";
+        }
+    }
+    ?>
+
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
 <head>
@@ -6,61 +31,54 @@
 </head>
 <body>
     <?php include 'cabeza.php' ?>
-    <div class="accordion accordion-flush" role="tablist" id="seccs" style="padding-top: 200px;">
-        <!-- Start: contacto -->
-        <div class="accordion-item cremita noMargin">
-            <h2 class="accordion-header" role="tab"><button class="accordion-button butCremita SECCS" type="button" data-bs-toggle="collapse" data-bs-target="#seccs .seccs-1" aria-expanded="true" aria-controls="seccs .seccs-1">Contacto</button></h2>
-            <div class="accordion-collapse collapse show seccs-1" role="tabpanel">
-                <div class="accordion-body">
-                    <div class="row">
-                        <!-- Start: artBio_text -->
-                        <div class="col-md-5 col-lg-6 offset-md-1 offset-xxl-2 desap">
-                            <p>aquí va la info y formulario de contacto</p>
-                        </div><!-- End: artBio_text -->
-                    </div>
+    
+    <section id="contacto" class="nara">
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 style="color: var(--bs-secondary)">Contacto</h2>
                 </div>
             </div>
-        </div><!-- End: contacto -->
-        <!-- Start: chat -->
-        <div class="accordion-item nara noMargin">
-            <h2 class="accordion-header" role="tab"><button class="accordion-button butNara SECCS" type="button" data-bs-toggle="collapse" data-bs-target="#seccs .seccs-2" aria-expanded="true" aria-controls="seccs .seccs-2">Chat</button></h2>
-            <div class="accordion-collapse collapse show seccs-2" role="tabpanel">
-                <div class="accordion-body">
-                    <div class="container-lg">
-                        <div class="row" style="padding-bottom: 20px;padding-top: 20px;">
-                            <!-- Start: comentarios -->
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <!-- Start: com_Ava -->
-                                    <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="art_ret/art_ret_CatMos_02.jpg"></div><!-- End: com_Ava -->
-                                    <div class="col-9">
-                                        <!-- Start: comAut -->
-                                        <h5 class="text-start comAut">Catalina Mosquera</h5><!-- End: comAut -->
-                                        <!-- Start: comBox -->
-                                        <p class="fst-italic comBox">Este es un mensaje que haya dejado alguien escrito con el formulario adjunto, el cual llega al correo de puerperio.</p><!-- End: comBox -->
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <!-- Start: com_Ava -->
-                                    <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="art_ret/art_ret_ClaNun_01.jpg"></div><!-- End: com_Ava -->
-                                    <div class="col-9">
-                                        <!-- Start: comAut -->
-                                        <h5 class="text-start comAut">Claudia Núñez</h5><!-- End: comAut -->
-                                        <!-- Start: comBox -->
-                                        <p class="fst-italic comBox">Aquí van quedando listados los mensajes que uds hayan recibido en el correo y seleccionen para subir manualmente a la página.</p><!-- End: comBox -->
-                                    </div>
-                                </div>
-                            </div><!-- End: comentarios -->
-                            <!-- Start: formulario -->
-                            <div class="col-md-6" style="padding: 20px;padding-bottom: 80px;">
-                                <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5><input type="text" class="formInput" placeholder="Nombre"><input type="email" class="formInput" placeholder="correo"><textarea class="formInput" placeholder="mensaje" rows="3"></textarea><input class="btn btn-primary" type="submit">
-                            </div><!-- End: formulario -->
+
+            <div class="row">
+                <div class="col comments col-md-6">
+                    <div class="row">
+                        <div class="col-2 text-center" style="padding-bottom: 40px;"><img class="img-fluid avatar" src="../assets/img/art_ret/noavatar.svg"></div>
+                        <div class="col-9">
+                            <h5 class="text-start comAut">Laura Jiménez</h5>
+                            <p class="fst-italic comBox">Me ha gustado la diversidad de encuentros entre arte y maternidad recogidas en esta exposición. Cada artista trae un mundo de sentido y aporta a la urgente reflexión sobre estos temas.</p>
                         </div>
                     </div>
                 </div>
+
+                <div class="col msgbox col-md-6">
+                    <h5 class="fw-bold" style="color: var(--bs-secondary);padding-bottom: 4px;">Deja tú también un mensaje...</h5>
+            
+                    <form action="./contacto.php" method="post" name="mandelo" id="mandelo">
+                        <input type="text" class="formInput" placeholder="Nombre" name="nombre">
+                        <input type="email" class="formInput" placeholder="correo" name="correo">
+                        <textarea class="formInput" placeholder="mensaje" rows="3" name="mensaje"></textarea>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Comentario</label></div>
+                        <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Correo</label></div>
+                        <input class="btn btn-primary" type="submit">
+                    </form>
+            
+                    <section class="main row">
+                        <h2>
+                            <?php
+                            if ($response) {
+                                echo $response;
+                            }
+                            ?>
+                        </h2>
+                    </section>
+
+                </div>
             </div>
-        </div><!-- End: chat -->
-    </div>
+        </div>
+    </section>
+
+    
     <?php include 'pie.php' ?>
 </body>
 </html>
