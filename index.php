@@ -38,8 +38,8 @@
         <div class=" pt" data-lang="pt" title="Disponível em breve" >Por</div> 
 -->
         <div class="d-flex flex-row">
-            <div class="selector es" data-lang="es" style="background: url('assets/img/ui/tetha02.svg') no-repeat;width: 60px;height: 57px;padding: 30px;margin: 10px;"><span class="d-flex justify-content-center align-items-center">esp</span></div>
-            <div class=" pt" data-lang="pt" title="Disponível em breve" style="background: url('assets/img/ui/tetha01.svg') no-repeat;width: 60px;height: 57px;padding: 30px;margin: 10px;"><span class="d-flex justify-content-center align-items-center">por</span></div>
+            <div class="selector es" data-lang="es" style="background: url('assets/img/ui/tetha02.svg') no-repeat;width: 60px;height: 57px;padding: 30px;margin: 10px;"><span class="d-flex justify-content-center align-items-center" data-lang="es">esp</span></div>
+            <div class=" pt" data-lang="pt" title="Disponível em breve" style="background: url('assets/img/ui/tetha01.svg') no-repeat;width: 60px;height: 57px;padding: 30px;margin: 10px;"><span class="d-flex justify-content-center align-items-center" data-lang="pt">por</span></div>
         </div>
     </div>
     <section id="slide" style="overflow: hidden;"><img class="logopuerperioslide" src="assets/img/logos/puerperioneo.svg">
