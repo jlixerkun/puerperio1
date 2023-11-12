@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/entrada.css">
 </head>
 
+
 <body>
     <div>
         <div class="nav1 link-main"><a href="galeria.php"><img class="draggable-svg" src="assets/img/ui/tetha01.svg"></a></div>
