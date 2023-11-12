@@ -23,21 +23,22 @@
   display: none;
   opacity: 0;
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .menubg .menu-list.active {
+  width: 16ch;
   display: inline-block;
-  transform: translateX(-2rem) translateY(1.2rem);
+  transform: translateX(-1.6rem) translateY(1rem);
   animation: aparecer 300ms ease 700ms forwards;
 }
 
 .menubg .menu-list .menu-item {
-  line-height: 1.2rem;
+  line-height: 1.1rem;
 }
 
 .menubg .menu-list .menu-item a {
-  font-size: 17.6px;
+  font-size: 15px;
   line-height: 1;
   color: var(--bs-danger-text-emphasis, blue);
   text-decoration: none;

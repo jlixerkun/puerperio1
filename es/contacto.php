@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <input class="form-check-input" type="checkbox" id="comentario" name="correo" checked>
                                         <label class="form-check-label" for="formCheck-2">Correo</label>
                                     </div>
-                                    <input class="btn btn-primary" type="submit">
+                                    <input class="btn btn-primary" type="submit" value="Enviar">
 
                                 </form>
                                 <!-- End: formulario -->

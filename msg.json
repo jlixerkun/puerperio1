@@ -10,13 +10,20 @@
         "nombre": "Sofía Fiorito",
         "mensaje": "Genial, me gustaría saber si pueden participar más artistas en esta exposición.",
         "email": "marge@simpson.com",
-        "comentario": 0,
+        "comentario": 1,
         "correo": 1
     },
     {
         "nombre": "Maria Claudia Villate",
         "mensaje": "Inspirador conocer a las artistas desde sus obras y entrevistas!",
         "email": "bart@simpson.com",
+        "comentario": 1,
+        "correo": 1
+    },
+    {
+        "nombre": "Jlixerkun Camargo",
+        "mensaje": "Este proyecto ha sido lo mejor que ha podido ocurrir en mi vida XD",
+        "email": "jlixerkun@gmail.com",
         "comentario": 1,
         "correo": 1
     }
