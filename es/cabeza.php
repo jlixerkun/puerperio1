@@ -17,8 +17,9 @@
             <li class="menu-item"><a href="puerperio.php">puerperio</a></li>
             <li class="menu-item"><a href="artistas.php">artistas</a></li>
             <li class="menu-item"><a href="encuentro.php">encuentro</a></li>
+            <li class="menu-item"><a href="proyectos.php">otros proyectos</a></li>            
             <li class="menu-item"><a href="contacto.php">contacto</a></li>
         </ul>
     </div>
-</nav><!-- Start: title -->
-<div class="text-end"><img class="titleInt" src="../assets/img/logos/P.svg"></div><!-- End: title -->
+</nav>
+<div class="text-end"><img class="titleInt" src="../assets/img/logos/P.svg"></div>
