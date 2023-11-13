@@ -64,7 +64,7 @@
                         <div class="col-md-10 col-lg-6 offset-md-1 offset-xxl-2 desap">
                             <p>Artista y madre socialmente comprometida nacida y residente en Sao Paulo. Además de sus proyectos de performance y video, adopta formas educativas, editoriales y curatoriales en su práctica artística. En sus proyectos a largo plazo, se niega a elaborar los proyectos sola, para hacer posible que entren otras personas, desde fuera del contexto del arte. Hace propuestas iniciales y abiertas, para que otras personas también sean co-creadoras, y no sólo participantes, y para que la propuesta inicial se transforme y abarque una diversidad de visiones y prácticas.<br><br>Entre sus exposiciones colectivas se encuentran la 29º y 31º Bienal de São Paulo (2010 y 2014), la Bienal de Oslo (2019-2021) y la Documenta Quince (Kassel, 2022). Entre 2001-2003 abrió la casa donde vivía como “residencia pública” y acogió residencias, exposiciones, talleres, un restaurante y una biblioteca.</p>
                         </div>
-                    </div><img class="float-end art_ret" src="../assets/img/art_ret/art_ret_GraKun.png" loading="eager" style="margin-right: -20px;">
+                    </div><img class="float-end art_ret" src="../assets/img/art_ret/art_ret_GraKun2.png" loading="eager" style="margin-right: -20px;">
                 </div>
             </div>
         </div>
