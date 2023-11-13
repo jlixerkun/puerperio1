@@ -13,19 +13,9 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_VenEva.php"><span class="obraTitAut">Venuca Evanán</span></a><br><span class="obraTitGal">Niñas, no madres</span><br>Acrílico sobre cerámica<br>2022</p>
                 </figure>
             </a></div>
-        <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_CatMos_01a.jpg" data-fancybox="gallery">
-                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_CatMos_01a.jpg">
-                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_CatMos.php"><span class="obraTitAut">Catalina Mosquera</span></a><br><span class="obraTitGal">Ex Posición</span><br><em>Diokaju Generación Arte Afro,&nbsp;</em>Fundación Artística y Social</p>
-                </figure>
-            </a></div>
         <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_GraKun_06.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_GraKun_06.jpg">
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_GraKun.php"><span class="obraTitAut">Graziela Kunsch</span></a><br><span class="obraTitGal">Public Day Care<br>(Guardería Pública)</span><br>Tela de balanza. Taller Carambola<br>15º Documenta de Kassel.<br>2022</p>
-                </figure>
-            </a></div>
-        <div class="item-galeria grande"><a class="galink" href="../assets/img/art_gal/art_gal_MonVen_04a.jpg" data-fancybox="gallery">
-                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_MonVen_04a.jpg">
-                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_MonVen.php"><span class="obraTitAut">Mónica Ventura</span></a><br><span class="obraTitGal">Bizcochos</span><br>Acrílico sobre cerámica<br>2022</p>
                 </figure>
             </a></div>
         <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_VenEva_03.jpg" data-fancybox="gallery">
@@ -36,6 +26,11 @@
         <div class="item-galeria"><a class="galink" href="art_ClaNun.php">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_Gal_ClaNun_01_t.svg">
                     <p class="piedeobraGal"><span class="obraTitAut">Claudia Núñez</span><br><span class="obraTitGal">Animal Maternal</span></p>
+                </figure>
+            </a></div>
+        <div class="item-galeria ancho"><a class="galink" href="../assets/img/art_gal/art_gal_CatMos_01a.jpg" data-fancybox="gallery">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_CatMos_01a.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_CatMos.php"><span class="obraTitAut">Catalina Mosquera</span></a><br><span class="obraTitGal">Ex Posición</span><br><em>Diokaju Generación Arte Afro,&nbsp;</em>Fundación Artística y Social</p>
                 </figure>
             </a></div>
         <div class="item-galeria"><a class="galink" href="art_CarMej.php">
@@ -73,6 +68,11 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_MonVen.php"><span class="obraTitAut">Mónica Ventura</span></a><br><span class="obraTitGal">Salto de los 9</span><br>Acrílico sobre algodón<br>2022</p>
                 </figure>
             </a></div>
+        <div class="item-galeria"><a class="galink" href="art_NatIgu.php">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_NatIgu_08_Maruja%20y%20Mirna.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_NatIgu.php"><span class="obraTitAut">Natalia Iguiñiz</span></a><br><span class="obraTitGal">Maruja y Mirna. Serie <em>"La otra"</em></span><br>Impresión cromogénica sobre papel<br>2001</p>
+                </figure>
+            </a></div>
         <div class="item-galeria"><a class="galink" href="art_CarMej.php">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_CarMej_01.jpg">
                     <p class="piedeobraGal"><span class="obraTitAut">Carelyn Mejías</span><br><span class="obraTitGal">Anotaciones</span><br>Video Performance<br>Buenos Aires<br>2022</p>
@@ -88,9 +88,14 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_GraKun.php"><span class="obraTitAut">Graziela Kunsch</span></a><br><span class="obraTitGal">Public Day Care<br>(Guardería Pública)</span><br>Tela de balanza. Taller Carambola<br>15º Documenta de Kassel.<br>2022</p>
                 </figure>
             </a></div>
-        <div class="item-galeria alto"><a class="galink" href="../assets/img/art_gal/art_gal_YanHer_04.jpg" data-fancybox="gallery">
+        <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_YanHer_04.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_YanHer_04.jpg">
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal"> Si la tierra es de todos, la tierra es de nadie</span><br>Acrílico sobre cartón<br>2021</p>
+                </figure>
+            </a></div>
+        <div class="item-galeria"><a class="galink" href="art_NatIgu.php">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_NatIgu_12_Verónica%20y%20Norberta.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_NatIgu.php"><span class="obraTitAut">Natalia Iguiñiz</span></a><br><span class="obraTitGal">Verónica y Norberta. Serie <em>"La otra"</em></span><br>Impresión cromogénica sobre papel<br>2001</p>
                 </figure>
             </a></div>
         <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_ret_TziBar_02a.jpg" data-fancybox="gallery">
@@ -115,7 +120,7 @@
             </a></div>
         <div class="item-galeria ancho"><a class="galink" href="../assets/img/art_gal/art_gal_YanHer_05.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_YanHer_05.jpg">
-                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal"> Amaru niño</span><br>Acrílico sobre papel kraft<br>2021</p>
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal"> Amaru crionça</span><br>Acrílico sobre papel kraft<br>2021</p>
                 </figure>
             </a></div>
         <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_ret_TziBar_01.jpg" data-fancybox="gallery">
@@ -133,14 +138,19 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_GraKun.php"><span class="obraTitAut">Graziela Kunsch</span></a><br><span class="obraTitGal">Public Day Care<br>(Guardería Pública)</span><br>Tela de balanza. Taller Carambola<br>15º Documenta de Kassel.<br>2022</p>
                 </figure>
             </a></div>
+        <div class="item-galeria"><a class="galink" href="art_MarTib.php">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_Gal_SylSua_01_t.svg">
+                    <p class="piedeobraGal"><span class="obraTitAut">Sylvia Suarez</span><br><span class="obraTitGal">Leche</span></p>
+                </figure>
+            </a></div>
         <div class="item-galeria ancho"><a class="galink" href="../assets/img/art_gal/art_gal_CatMos_06a.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_CatMos_06a.jpg">
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_CatMos.php"><span class="obraTitAut">Catalina Mosquera</span></a><br><span class="obraTitGal">La ciudad de los otros</span><br>Compañía <em>Sankofa Danza Afro</em></p>
                 </figure>
             </a></div>
-        <div class="item-galeria grande"><a class="galink" href="art_NatIgu.php">
-                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_NatIgu_Todase.jpg">
-                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_NatIgu.php"><span class="obraTitAut">Natalia Iguiñiz</span></a><br><span class="obraTitGal">Serie <em>"La otra"</em></span><br>Impresión cromogénica sobre papel<br>2001</p>
+        <div class="item-galeria"><a class="galink" href="art_NatIgu.php">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_NatIgu_02_Charo%20y%20Rosario.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_NatIgu.php"><span class="obraTitAut">Natalia Iguiñiz</span></a><br><span class="obraTitGal">Charo y Rosario. Serie <em>"La otra"</em></span><br>Impresión cromogénica sobre papel<br>2001</p>
                 </figure>
             </a></div>
         <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_CatMos_06b.jpg" data-fancybox="gallery">
@@ -153,27 +163,31 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal">Dentro de mi habitan montañas</span><br>Acrílico sobre cartón<br>2023</p>
                 </figure>
             </a></div>
-        <div class="item-galeria ancho"><a class="galink" href="art_SylSua.php">
-                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_Gal_SylSua_01_t.jpg">
-                    <p class="piedeobraGal"><span class="obraTitAut">Sylvia Suarez</span><br><span class="obraTitGal">Leche</span></p>
-                </figure>
-            </a></div>
         <div class="item-galeria"><a class="galink" href="art_MarTib.php">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_Gal_MarTib_01_t.svg">
                     <p class="piedeobraGal"><span class="obraTitAut">Marcela Tiboni</span><br><span class="obraTitGal">Las batallas de ser madre al lado de otra madre</span></p>
                 </figure>
             </a></div>
-        <div class="item-galeria alto"><a class="galink" href="../assets/img/art_gal/art_gal_YanHer_02.jpg" data-fancybox="gallery">
+        <div class="item-galeria"><a class="galink" href="art_NatIgu.php">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_NatIgu_01_Asunta%20y%20Claudia.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_NatIgu.php"><span class="obraTitAut">Natalia Iguiñiz</span></a><br><span class="obraTitGal">Asunta y Claudia. Serie <em>"La otra"</em></span><br>Impresión cromogénica sobre papel<br>2001</p>
+                </figure>
+            </a></div>
+        <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_gal_YanHer_02.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_YanHer_02.jpg">
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal">Parto, Serie <em>Wawawasi</em>.</span><br>Tinta acrílica sobre oratorio de madera.<br>2022</p>
                 </figure>
             </a></div>
-        <div class="item-galeria grande"><a class="galink" href="../assets/img/art_gal/art_ret_TziBar_02d.jpg" data-fancybox="gallery">
+        <div class="item-galeria"><a class="galink" href="../assets/img/art_gal/art_ret_TziBar_02d.jpg" data-fancybox="gallery">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_ret_TziBar_02d.jpg">
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_TziBar.php"><span class="obraTitAut">Tzitzi Barrantes</span></a><br><span class="obraTitGal">Leite e Mel.&nbsp;Sesc Campinas</span><br>Performance.<br>David Ortiz, Miel Ortiz Barrantes y Tzitzi Barrantes<br>2015</p>
                 </figure>
-            </a>
-        </div>
+            </a></div>
+        <div class="item-galeria grande"><a class="galink" href="../assets/img/art_gal/art_gal_MonVen_04a.jpg" data-fancybox="gallery">
+                <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_gal_MonVen_04a.jpg">
+                    <p class="piedeobraGal"><a class="text-decoration-none" href="art_MonVen.php"><span class="obraTitAut">Mónica Ventura</span></a><br><span class="obraTitGal">Bizcochos</span><br>Acrílico sobre cerámica<br>2022</p>
+                </figure>
+            </a></div>
     </section>
     <?php include 'pie.php' ?>
 </body>
