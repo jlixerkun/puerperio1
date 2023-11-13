@@ -153,7 +153,7 @@
                     <p class="piedeobraGal"><a class="text-decoration-none" href="art_YanHer.php"><span class="obraTitAut">Yanaki Herrera</span></a><br><span class="obraTitGal">Dentro de mi habitan montañas</span><br>Acrílico sobre cartón<br>2023</p>
                 </figure>
             </a></div>
-        <div class="item-galeria ancho"><a class="galink" href="art_MarTib.php">
+        <div class="item-galeria ancho"><a class="galink" href="art_SylSua.php">
                 <figure class="figure"><img class="img-fluid figure-img" src="../assets/img/art_gal/art_Gal_SylSua_01_t.jpg">
                     <p class="piedeobraGal"><span class="obraTitAut">Sylvia Suarez</span><br><span class="obraTitGal">Leche</span></p>
                 </figure>
