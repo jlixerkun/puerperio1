@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="es">
 <head>
-    <title>Puerperio :: Exposición Virtual :: Encuentro</title>
+    <title>Puerperio :: Exposición Virtual :: Encuentros</title>
     <?php include '../scripts.php' ?>
 </head>
 <body>
     <?php include 'cabeza.php' ?>
 
     <div class="container cont_noacc">
-        <h1 class="tit_noacc">Encuentro</h1>
+        <h1 class="tit_noacc">Encuentros</h1>
         <div class="row">
 
             <div class="col-md-10 col-lg-9 offset-md-1 offset-lg-2 desap">
