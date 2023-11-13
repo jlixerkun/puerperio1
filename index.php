@@ -28,7 +28,7 @@
         <div class="nav1 link-main"><a href="galeria.php"><img class="draggable-svg" src="assets/img/ui/tetha01.svg"></a></div>
         <div class="nav2 link-main"><a href="puerperio.php"><img src="assets/img/ui/tetha02.svg"></a></div>
         <div class="nav3 link-main"><a href="artistas.php"><img src="assets/img/ui/tetha03.svg"></a></div>
-        <div class="nav4 link-main"><a href="encuentro.php"><img src="assets/img/ui/tetha04.svg"></a></div>
+        <div class="nav4 link-main"><a href="encuentros.php"><img src="assets/img/ui/tetha04.svg"></a></div>
         <div class="nav5 link-main"><a href="contacto.php"><img src="assets/img/ui/tetha01.svg"></a></div>
     </div>
     <div class="modal-idioma">
