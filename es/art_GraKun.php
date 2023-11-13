@@ -78,8 +78,8 @@
                                 <p></p>
                             </div>
                             <div class="entrev">
-                                <h1 class="preg">preg</h1>
-                                <p class="resp">resp</p>
+                                <h1 class="preg"></h1>
+                                <p class="resp"></p>
                             </div>
                         </div>
                     </div>
