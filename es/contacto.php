@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = $_POST["correo"];
 
     $enviadoPor = "proyectococuyo@gmail.com";
-    $to = "afpera@gmail.com";
+    $to = "proyectococuyo@gmail.com";
     $subject = "Nuevo comentario o contacto desde puerperio";
 
     $message = "Nombre: $nombre\n..";
