@@ -65,7 +65,7 @@
         </div>
         <div class="accordion-item nara noMargin">
             <h2 class="accordion-header cremita" role="tab"><button class="accordion-button butNara SECCS" type="button" data-bs-toggle="collapse" data-bs-target="#seccs .seccs-2" aria-expanded="true" aria-controls="seccs .seccs-2">Entrevista</button></h2>
-            <div class="accordion-collapse collapse show seccs-2" role="tabpanel">
+            <div class="accordion-collapse collapse seccs-2" role="tabpanel">
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-md-9 col-xxl-8 offset-md-1 offset-xl-1 offset-xxl-2">
