@@ -17,7 +17,7 @@
                 <div class="col"><img src="../assets/img/logos/logo_BTMQC.svg" style="max-height: 200px;"></div>
                 <div class="col"><img src="../assets/img/logos/logo_REDGSF.svg" style="max-height: 200px;"></div>
                 <div class="col"><img src="../assets/img/logos/logo_COCUYO.svg" style="max-height: 200px;"></div>
-                <div class="col"><img src="../assets/img/logos/logo_ALCALDÍA.svg" style="max-height: 200px;"></div>
+                <div class="col"><img src="../assets/img/logos/logo_ALCALD.svg" style="max-height: 200px;"></div>
                 <div class="col"><img src="../assets/img/logos/logo_IDARTES.svg" style="max-height: 200px;"></div>
             </div>
         </div>
